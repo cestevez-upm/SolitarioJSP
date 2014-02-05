@@ -1,4 +1,4 @@
-package ump.miw.solitaire.models.entities;
+package upm.miw.solitaire.models.entities;
 
 public enum Gender {
     MALE, FEMALE;

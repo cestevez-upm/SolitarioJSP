@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import ump.miw.solitaire.models.entities.Gender;
-import ump.miw.solitaire.models.entities.User;
+import upm.miw.solitaire.models.entities.Gender;
+import upm.miw.solitaire.models.entities.User;
 
 /**
  * Servlet implementation class FrontController

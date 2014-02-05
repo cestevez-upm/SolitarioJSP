@@ -1,8 +1,8 @@
 package upm.miw.solitaire.controllers.ejb;
 
-import ump.miw.solitaire.models.entities.User;
 import upm.miw.solitaire.models.dao.DAOFactory;
 import upm.miw.solitaire.models.dao.UserDAO;
+import upm.miw.solitaire.models.entities.User;
 
 public class LoginEjb {
 

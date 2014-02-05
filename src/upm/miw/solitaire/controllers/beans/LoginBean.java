@@ -4,9 +4,9 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 
-import ump.miw.solitaire.models.entities.Gender;
-import ump.miw.solitaire.models.entities.User;
 import upm.miw.solitaire.controllers.ejb.LoginEjb;
+import upm.miw.solitaire.models.entities.Gender;
+import upm.miw.solitaire.models.entities.User;
 
 public class LoginBean extends Bean {
 

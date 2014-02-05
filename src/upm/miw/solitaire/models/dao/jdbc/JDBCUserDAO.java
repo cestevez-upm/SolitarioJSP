@@ -7,9 +7,9 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import ump.miw.solitaire.models.entities.Gender;
-import ump.miw.solitaire.models.entities.User;
 import upm.miw.solitaire.models.dao.UserDAO;
+import upm.miw.solitaire.models.entities.Gender;
+import upm.miw.solitaire.models.entities.User;
 
 public class JDBCUserDAO extends JDBCGenericDAO<User, String> implements UserDAO {
     private Logger log = Logger.getLogger(JDBCUserDAO.class);

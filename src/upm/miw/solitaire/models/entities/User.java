@@ -1,4 +1,4 @@
-package ump.miw.solitaire.models.entities;
+package upm.miw.solitaire.models.entities;
 
 public class User {
     private String nick;

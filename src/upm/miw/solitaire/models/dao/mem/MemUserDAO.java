@@ -1,8 +1,8 @@
 package upm.miw.solitaire.models.dao.mem;
 
-import ump.miw.solitaire.models.entities.Gender;
-import ump.miw.solitaire.models.entities.User;
 import upm.miw.solitaire.models.dao.UserDAO;
+import upm.miw.solitaire.models.entities.Gender;
+import upm.miw.solitaire.models.entities.User;
 
 public class MemUserDAO extends MemGenericDAO<User, String> implements UserDAO {
 
