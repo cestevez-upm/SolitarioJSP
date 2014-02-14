@@ -14,10 +14,6 @@ public class MemUserDAO extends MemGenericDAO<User, String> implements UserDAO {
     }
 
     @Override
-    public void createTable() {
-    }
-
-    @Override
     protected String getId(User entity) {
         return entity.getNick();
     }

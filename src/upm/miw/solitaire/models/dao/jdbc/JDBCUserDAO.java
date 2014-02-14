@@ -14,7 +14,6 @@ import upm.miw.solitaire.models.entities.User;
 public class JDBCUserDAO extends JDBCGenericDAO<User, String> implements UserDAO {
     private Logger log = Logger.getLogger(JDBCUserDAO.class);
 
-    @Override
     public void createTable() {
         ContextJDBC.getJDBC().update("DROP TABLE IF EXISTS user ");
         ContextJDBC.getJDBC().update(
